@@ -103,7 +103,7 @@ Este é um projeto puramente front-end, então não há necessidade de um build 
 
 Este projeto é o resultado do trabalho colaborativo de:
 
-| [<img src="https://avatars.githubusercontent.com/u/144985226?v=4" width=115><br><sub>Igor Filipi</sub>](https://github.com/oigorfilipi) | [<img src="https://avatars.githubusercontent.com/u/183135982?v=4" width=115><br><sub>Heloisa Silva</sub>](https://github.com/heloisasl) | [<img src="https://avatars.githubusercontent.com/u/229226323?v=4" width=115><br><sub>Isaac [Sobrenome]</sub>](https://github.com/VoidIsaac88) |
+| [<img src="https://avatars.githubusercontent.com/u/144985226?v=4" width=115><br><sub>Igor Filipi</sub>](https://github.com/oigorfilipi) | [<img src="https://avatars.githubusercontent.com/u/183135982?v=4" width=115><br><sub>Heloisa Lino</sub>](https://github.com/heloisasl) | [<img src="https://avatars.githubusercontent.com/u/229226323?v=4" width=115><br><sub>Isaac Silva</sub>](https://github.com/VoidIsaac88) |
 | :---: |:---:| :---:|
 | Design (UI/UX), Versão Final e Front-end | Idealização e Versão Inicial | Desenvolvimento de Abas/Funcionalidades |
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatWear - Meu Carrinho</title>
+    <link rel="icon" href="Designe/TRANSPARENTE - Logo (Fonte Branca).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body class="CorpoDesejos">
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="ProfileGeral">
+                    <div class="user-profile">
+                        <img src="img/Perfil Igor Filipi.png" alt="Foto de Perfil">
+                    </div>
+                    <div class="header-profile">
+                        <a href="perfil.html">Igor Filipi</a>
+                    </div>
+                </div>
+                <div class="logogeral">
+                    <a href="index.html"><img src="Designe/TRANSPARENTE - Logomarca - Horizontal (Fonte Branca).png"
+                            alt="Logomarca"></a>
+                </div>
+                <div class="header-icons">
+                    <a href="#" id="icone-carrinho" aria-label="Carrinho"><i class="ph ph-shopping-cart"></i></a>
+                    <a href="perfil.html" aria-label="Perfil de Usuário"><i class="ph ph-user"></i></a>
+                    <a href="desejo.html" aria-label="Lista de Desejos"><i class="ph ph-heart"></i></a>
+                    <a href="#" aria-label="Playlist"><i class="ph ph-headset"></i></a>
+                    <a href="#" aria-label="Idioma"><i class="ph ph-globe"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="pagina-carrinho-container">
+            <h1>Meu Carrinho</h1>
+            <div class="carrinho-layout">
+                <div class="carrinho-itens-lista">
+                </div>
+                <div class="carrinho-resumo">
+                    <h2>Resumo do Pedido</h2>
+                    <div class="resumo-linha">
+                        <span>Subtotal</span>
+                        <span id="subtotal-carrinho">R$ 0,00</span>
+                    </div>
+                    <div class="resumo-linha">
+                        <span>Frete</span>
+                        <span>Grátis</span>
+                    </div>
+                    <hr>
+                    <div class="resumo-linha total">
+                        <span>Total</span>
+                        <span id="total-carrinho">R$ 0,00</span>
+                    </div>
+                    <button class="btn-finalizar-compra">Finalizar Compra</button>
+                    <a href="index.html" class="continuar-comprando-link">Continuar Comprando</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>beatwearstore@gmail.com</p>
+        <p>(34) 99999-9999</p>
+        <p>© copyright BEATWEAR 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatWear - Meu Carrinho</title>
+    <link rel="icon" href="Designe/TRANSPARENTE - Logo (Fonte Branca).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="ProfileGeral">
+                    <div class="user-profile">
+                        <img src="img/Perfil Igor Filipi.png" alt="Foto de Perfil">
+                    </div>
+                    <div class="header-profile">
+                        <a href="perfil.html">Igor Filipi</a>
+                    </div>
+                </div>
+                <div class="logogeral">
+                    <a href="index.html"><img src="Designe/TRANSPARENTE - Logomarca - Horizontal (Fonte Branca).png"
+                            alt="Logomarca"></a>
+                </div>
+                <div class="header-icons">
+                    <a href="#" id="icone-carrinho" aria-label="Carrinho"><i class="ph ph-shopping-cart"></i></a>
+                    <a href="perfil.html" aria-label="Perfil de Usuário"><i class="ph ph-user"></i></a>
+                    <a href="desejo.html" aria-label="Lista de Desejos"><i class="ph ph-heart"></i></a>
+                    <a href="#" id="icone-playlist" aria-label="Playlist"><i class="ph ph-headset"></i></a>
+                    <a href="#" aria-label="Idioma"><i class="ph ph-globe"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="parte_titulos">
+            <h1 class="titulo_desejos">PLAYLIST</h1>
+            <button class="btn-desejo" onclick="window.location.href='index.html'">Voltar</button>
+        </div>
+
+    <main class="playlist-page-container"> <p>Cole o link da sua playlist do <b>Spotify</b> ou <b>Deezer</b> abaixo:</p>
+
+        <div class="playlist-input-group"> <input id="playlistInput" type="text" placeholder="https://open.spotify.com/playlist/...">
+            <button id="addPlaylistBtn">Adicionar Playlist</button>
+        </div>
+
+        <div id="playlistContainer" class="playlist-container"></div>
+    </main>
+
+    <script src="playlist.js"></script>
+</body>
+</html>
